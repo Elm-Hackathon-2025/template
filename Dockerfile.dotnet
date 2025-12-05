@@ -25,4 +25,5 @@ EXPOSE 8080
 ENV ASPNETCORE_URLS=http://+:8080
 
 # Run the application
+# Note: Replace 'YourApp.dll' with your actual application DLL name
 ENTRYPOINT ["dotnet", "YourApp.dll"]
